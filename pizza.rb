@@ -17,6 +17,10 @@ module Pizza
       ans
     end
 
+    def add_topping(topping)
+      @toppings << topping
+    end
+
   end
 
   class Topping
